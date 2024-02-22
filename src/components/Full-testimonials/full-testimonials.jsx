@@ -137,7 +137,7 @@ class FullTestimonials extends React.Component {
                     </div>
                   </div>
                   <p>
-                    Excellent working with Vladyslav. He&apos;s very easy to work with and really helpful. He pays close attention to details and did everything in a timely manner
+                    Excellent working with Benjamin. He&apos;s very easy to work with and really helpful. He pays close attention to details and did everything in a timely manner
                   </p>
                 </div>
                 <div className="item">

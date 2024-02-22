@@ -10,13 +10,13 @@ const FreelancreIntro = () => {
         <div className="row">
           <div className="col-lg-4">
             <div className="img">
-              <Image src="/img/photo.png" alt="" layout='fill' />
+              <Image src="/img/benjamin.jpg" alt="" layout='fill' />
             </div>
           </div>
           <div className="col-lg-8 valign">
             <div className="cont">
               <h1 className="cd-headline clip">
-                Hello, I&apos;m <span className="font-weight-bold">Awesome Dev</span><br />
+                Hello, I&apos;m <span className="font-weight-bold">Benjamin Tan</span><br />
                 I have extensive experience in<br />
                 <span
                   style={{ fontSize: "35px", lineHeight: "49px" }}
@@ -51,7 +51,7 @@ const FreelancreIntro = () => {
             <ul className="flex">
               <li className="flex">
                 <div className="numb valign">
-                  <h3>8+</h3>
+                  <h3>7+</h3>
                 </div>
                 <div className="text valign">
                   <p>
@@ -62,7 +62,7 @@ const FreelancreIntro = () => {
 
               <li className="flex">
                 <div className="numb valign">
-                  <h3>50+</h3>
+                  <h3>30+</h3>
                 </div>
                 <div className="text valign">
                   <p>
@@ -72,12 +72,12 @@ const FreelancreIntro = () => {
               </li>
 
               <li className="mail-us">
-                <a href="mailto:awesomedev08@gmail.com?subject=Subject">
+                <a href="mailto:tbenjamin.rain@gmail.com?subject=Subject">
                   <div className="flex">
                     <div className="text valign">
                       <div className="full-width">
                         <p>Get In Touch</p>
-                        <h6>Awesome Dev</h6>
+                        <h6>Benjamin Tan</h6>
                       </div>
                     </div>
                     <div className="mail-icon">

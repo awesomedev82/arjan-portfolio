@@ -10,8 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Vie</title>
-        <link rel="icon" href="/img/favicon.ico" />
+        <title>Benjamin Tan</title>
       </Head>
       <Cursor />
       <LoadingScreen />

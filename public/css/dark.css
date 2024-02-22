@@ -8073,12 +8073,12 @@ footer .item li .sm-post .date {
   color: #12c2e9;
 }
 
-footer .item li .subscribe {
+footer .subscribe {
   width: 100%;
   position: relative;
 }
 
-footer .item li .subscribe input {
+footer .subscribe input {
   width: 100%;
   padding: 15px;
   border-radius: 30px;
@@ -8088,7 +8088,7 @@ footer .item li .subscribe input {
   font-size: 13px;
 }
 
-footer .item li .subscribe .subs {
+footer .subscribe .subs {
   position: absolute;
   top: 0;
   right: 0;

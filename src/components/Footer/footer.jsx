@@ -8,37 +8,40 @@ const Footer = ({ hideBGCOLOR }) => {
     <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`}>
       <div className="container">
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-12">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Contact Us</h5>
+                <h5>Contact Me</h5>
               </div>
-              <ul>
+              <div className="item">
+              <ul className="d-flex justify-content-between flex-wrap">
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
-                    <h6>Officeal Address</h6>
-                    <p>504 White St . Dawsonville, GA 30534 , New York</p>
+                    <h6>Work From Home</h6>
+                    <p>12 Nathan Rd, Singapore 248734</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
-                    <h6>Email Us</h6>
-                    <p>support@gmail.com</p>
+                    <h6>Email Me</h6>
+                    <p>tbenjamin.rain@gmail.com</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
-                    <h6>Call Us</h6>
-                    <p>+87986451666</p>
+                    <h6>Call Me</h6>
+                    <p>+653125205199</p>
                   </div>
                 </li>
               </ul>
+              </div>
+              
             </div>
           </div>
-          <div className="col-lg-4">
+          {/* <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
                 <h5>Recent News</h5>
@@ -56,7 +59,7 @@ const Footer = ({ hideBGCOLOR }) => {
                     <Link href="/blog-details/blog-details-dark">
                       <a>
                         <p>
-                          The Start-Up Ultimate Guide to Make Your WordPress
+                          The Start-Up Ultimate Guide to Make Your Web
                           Journal.
                         </p>
                       </a>
@@ -133,6 +136,10 @@ const Footer = ({ hideBGCOLOR }) => {
                 </p>
               </div>
             </div>
+          </div> */}
+          <div className="subscribe w-auto mx-auto" style={{maxWidth: "350px"}}>
+            <input type="text" placeholder="Type Your Email" />
+            <span className="subs pe-7s-paper-plane"></span>
           </div>
         </div>
       </div>

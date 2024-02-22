@@ -39,7 +39,6 @@ const SContactForm = ({ noLine }) => {
                 }}
                 onSubmit={async (values) => {
                   await sendMessage(500);
-                  alert(JSON.stringify(values, null, 2));
                   // show message
 
                   messageRef.current.innerText =
