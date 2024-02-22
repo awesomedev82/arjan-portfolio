@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "icon": "pe-7s-phone",
+        "title": "Responsive Design Champion",
+        "content": "Creating web experiences that adapt perfectly to every device."
+    },
+    {
+        "id": 2,
+        "icon": "pe-7s-science",
+        "title": "JavaScript Jedi",
+        "content": "Expert in crafting dynamic, interactive client-side applications."
+    },
+    {
+        "id": 3,
+        "icon": "pe-7s-server",
+        "title": "Backend Virtuoso",
+        "content": "Mastering server-side magic for robust and scalable web apps."
+    },
+    {
+        "id": 4,
+        "icon": "pe-7s-cloud",
+        "title": "API Artisan",
+        "content": "Designing and integrating APIs for seamless service communication."
+    },
+    {
+        "id": 5,
+        "icon": "pe-7s-graph1",
+        "title": "Blockchain Wizard",
+        "content": "Expertized in blockchain tech for secure, decentralized solutions."
+    },
+    {
+        "id": 6,
+        "icon": "pe-7s-magic-wand",
+        "title": "AI Enthusiast",
+        "content": "Passionate about AI, driving innovation with machine learning."
+    }
+]
