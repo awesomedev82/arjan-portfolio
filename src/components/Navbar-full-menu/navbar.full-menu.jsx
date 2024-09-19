@@ -14,7 +14,7 @@ const NavbarFullMenu = ({ theme }) => {
         id="navi"
         className={`topnav ${theme ? (theme === "light" ? "light" : "") : ""}`}
       >
-        <div className="container-fluid">
+        {/* <div className="container-fluid">
           <div className="logo">
             <a href="#0">
               {theme ? (
@@ -24,11 +24,11 @@ const NavbarFullMenu = ({ theme }) => {
                   <img src={appData.lightLogo} alt="logo" />
                 )
               ) : (
-                <img src={appData.lightLogo} alt="logo" style={{ height: '40px', width: "auto" }} />
+                <img src={appData.lightLogo} alt="logo" style={{ height: '120px', width: "auto" }} />
               )}
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

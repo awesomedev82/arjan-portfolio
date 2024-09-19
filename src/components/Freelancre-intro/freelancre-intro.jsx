@@ -10,13 +10,13 @@ const FreelancreIntro = () => {
         <div className="row">
           <div className="col-lg-4">
             <div className="img">
-              <Image src="/img/benjamin.jpg" alt="" layout='fill' />
+              <Image src="/img/avatar.jpeg" alt="" layout='fill' />
             </div>
           </div>
           <div className="col-lg-8 valign">
             <div className="cont">
               <h1 className="cd-headline clip">
-                Hello, I&apos;m <span className="font-weight-bold">Benjamin Tan</span><br />
+                Hello, I&apos;m <span className="font-weight-bold">Arjan Galang</span><br />
                 I have extensive experience in<br />
                 <span
                   style={{ fontSize: "35px", lineHeight: "49px" }}
@@ -27,10 +27,8 @@ const FreelancreIntro = () => {
                       wrapperClassName: "color-font fw-600",
                       strings: [
                         "Front-end Development",
-                        "Back-end Development",
                         "Blockchain Development",
-                        "Artificial Intelligence",
-                        "Internet of Things"
+                        "Back-end Development",
                       ],
                       autoStart: true,
                       loop: true,
@@ -72,12 +70,12 @@ const FreelancreIntro = () => {
               </li>
 
               <li className="mail-us">
-                <a href="mailto:tbenjamin.rain@gmail.com?subject=Subject">
+                <a href="mailto:arjangalang2@gmail.com?subject=Subject">
                   <div className="flex">
                     <div className="text valign">
                       <div className="full-width">
                         <p>Get In Touch</p>
-                        <h6>Benjamin Tan</h6>
+                        <h6>Arjan Galang</h6>
                       </div>
                     </div>
                     <div className="mail-icon">

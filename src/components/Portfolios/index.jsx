@@ -35,7 +35,6 @@ const Portfolios = () => {
               <span data-filter=".creative">Creative</span>
               <span data-filter=".ecommerce">Ecommerce</span>
               <span data-filter=".blockchain">Blockchain</span>
-              <span data-filter=".mobile">Mobile</span>
             </div>
           </div>
 
@@ -235,66 +234,6 @@ const Portfolios = () => {
                 <div className="tags">
                   <span>
                     <Link href="/past-work">Blockchain</Link>
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 items mobile wow fadeInUp" data-wow-delay=".4s">
-              <div className="item-img">
-                <div className="cont">
-                  <h6>Family Locator - GPS Tracker</h6>
-                  <p>Stay in touch and be connected - GPS technique</p>
-                </div>
-                <Link href={`/projects/mobile/1`}>
-                  <a className="rota">
-                    <img src="/img/portfolio/projects/mobile/FamilyLocator/1.png" style={{ aspectRatio: "1.9" }} alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-                <div className="tags">
-                  <span>
-                    <Link href="/past-work">Mobile</Link>
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 items mobile wow fadeInUp" data-wow-delay=".4s">
-              <div className="item-img">
-                <div className="cont">
-                  <h6>Life in the UK Test Prep 2023</h6>
-                  <p>Practise Test for Life in the UK</p>
-                </div>
-                <Link href={`/projects/mobile/2`}>
-                  <a className="rota">
-                    <img src="/img/portfolio/projects/mobile/LifeUK/1.png" style={{ aspectRatio: "1.9" }} alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-                <div className="tags">
-                  <span>
-                    <Link href="/past-work">Mobile</Link>
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 items mobile wow fadeInUp" data-wow-delay=".4s">
-              <div className="item-img">
-                <div className="cont">
-                  <h6>Video Generator</h6>
-                  <p>Generate video from images - built with Swift</p>
-                </div>
-                <Link href={`/projects/mobile/3`}>
-                  <a className="rota">
-                    <img src="/img/portfolio/projects/mobile/VideoApp/1.png" style={{ aspectRatio: "1.9" }} alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-                <div className="tags">
-                  <span>
-                    <Link href="/past-work">Mobile</Link>
                   </span>
                 </div>
               </div>

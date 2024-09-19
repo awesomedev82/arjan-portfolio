@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Benjamin Tan</title>
+        <title>Arjan Galang</title>
       </Head>
       <Cursor />
       <LoadingScreen />
